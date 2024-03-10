@@ -1,0 +1,126 @@
+/* Font links*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+/* Font Families Imported
+
+font-family: "Montserrat", sans-serif;
+font-family: "Poppins", sans-serif;
+font-family: "Titillium Web", sans-serif;
+*/
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    font-size: 6vmin;
+    font-weight: 700;
+    justify-content: center;
+    background-color: rgba(52, 152, 219,1.0);
+}
+
+.diceContainer
+{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.playerContainer
+{
+    width: 20vmin;
+    height: 25.5vmin;
+    text-align: center;
+    flex-basis: 20vmin;
+    /* background-color: aquamarine; */
+}
+
+.playerContainer h2
+{
+    font-size: 2.5vmin;
+    margin-bottom: 2vmin;
+}
+
+.playerContainer img
+{
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 1vmin;
+}
+
+#rollBtn
+{
+    height: 5vmin;
+    width: 10vmin;
+    font-size: 2vmin;
+    margin: 3vmin 10% 0 10%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.resultWindow
+{
+    width: 100vw;
+    height: 30vh;
+    text-align: center;
+}
+
+.resultWindow h4
+{
+    font-size: 3vmin;
+}
+
+#Result
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 3vmin;
+    width: 60vw;
+    height: 20vh;
+    margin: 1vh 20vw;
+    border-radius: 1vmin;
+    background-color: rgba(52, 152, 219,1.0);
+}
+
+.afterRollResult
+{
+    font-size: 5vmin !important;
+    font-weight: 700;
+}
+
+.footer
+{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vmin;
+    color: white;
+    /* background-color: aqua; */
+}

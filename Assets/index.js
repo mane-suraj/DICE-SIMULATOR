@@ -17,13 +17,13 @@ btn.onclick = function()
     var randomNumber1 = Math.floor((Math.random())*6)+1;
 
     var randomImage1 = "Dice"+randomNumber1+".jpg";
-    var path1 = "./Images/"+randomImage1;
+    var path1 = "https://raw.githack.com/mane-suraj/DICE-SIMULATOR/main/Images/"+randomImage1;
     var changeImage1 = document.querySelectorAll("img")[0];
     changeImage1.setAttribute("src", path1)
 
     var randomNumber2 = Math.floor((Math.random())*6)+1;
     var randomImage2 = "Dice"+randomNumber2+".jpg";
-    var path2 = "./Images/"+randomImage2;
+    var path2 = "https://raw.githack.com/mane-suraj/DICE-SIMULATOR/main/Images/"+randomImage2;
     var changeImage2 = document.querySelectorAll("img")[1];
     changeImage2.setAttribute("src", path2)
 
